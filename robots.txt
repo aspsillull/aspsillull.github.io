@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.cop.es/colegiados/A-00512/sitemap.xml
