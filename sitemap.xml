@@ -8,12 +8,12 @@
   <!-- Páginas HTML -->
   <url>
     <loc>https://aspsillull.github.io/llull/</loc>
-    <lastmod>2025-11-21</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://aspsillull.github.io/llull/llull.html</loc>
-    <lastmod>2025-11-21</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
@@ -116,7 +116,11 @@
     <lastmod>2025-11-21</lastmod>
     <priority>0.80</priority>
   </url>
-
+  <url>
+    <loc>https://aspsillull.github.io/llull/enlaces.html</loc>
+    <lastmod>2025-11-24</lastmod>
+    <priority>0.80</priority>
+  </url>
   <!-- PDFs -->
   <url>
     <loc>https://aspsillull.github.io/llull/guia_angustiados.pdf</loc>
