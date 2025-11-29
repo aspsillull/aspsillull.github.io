@@ -74,22 +74,6 @@ h4 { margin-top: 1rem; margin-bottom: 0rem; }
         text-align: center;  /* Centra el texto dentro del footer */
         padding: 1rem 0;
     }
-.button {
-            font-family: "Times", serif;
-            font-size: 14px;
-            font-weight: bold;
-            background-color: black;
-            color: white;
-            border: 1px solid blue;
-            border-radius: 12px;
-            padding: 10px 20px;
-            hyphens: none;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            margin: 4px 2px;
-            cursor: pointer;
-            }
 p.sdendnote {
     font-size: 10pt;
     text-indent: -0.6cm;
