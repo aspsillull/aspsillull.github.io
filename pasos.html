@@ -25,7 +25,8 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="manifest" href="site.webmanifest">
     <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="preload" href="estilo.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="estilo.css"></noscript>
     <!-- Google Analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8C6H4GQ6V">
     </script>
