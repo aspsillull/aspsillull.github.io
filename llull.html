@@ -31,7 +31,9 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="manifest" href="/site.webmanifest">        <!-- Hojas de estilo -->
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="preload" href="estilo.css" as="style" onload="this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="estilo.css"></noscript>
+
 
         <!-- Google Analytics (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8C6H4GQ6V"></script>
@@ -407,7 +409,7 @@
         <section class="seccion-aislada" id="umbrales">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/umbrales.html">
-                    <img src="imagenes/umbral.png" alt="Límites de tolerancia mínimos y máximos al estrés" class="imagen-adaptativa">
+                    <img src="imagenes/llull_umbral.webp" alt="Límites de tolerancia máximos al estrés" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -421,7 +423,7 @@
         <section class="seccion-aislada seccion-alternada" id="causas">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/causas.html">
-                    <img src="imagenes/fuentes_ansiedad.png" alt="Distintos afluentes llenan el río del estrés" class="imagen-adaptativa">
+                    <img src="imagenes/fuentes_ansiedad.webp" alt="Distintos afluentes llenan el río del estrés" loading="lazy" class="imagen-adaptativa">
                     </a>
             </div>
             <div class="contenedor-texto">
@@ -435,7 +437,7 @@
         <section class="seccion-aislada" id="diaria">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/pasos.html">
-                    <img src="imagenes/dia_dia.png" alt="Organización diaria y la rueda de propósitos" class="imagen-adaptativa">
+                    <img src="imagenes/dia_dia.webp" alt="Organización diaria y la rueda de propósitos" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -449,7 +451,7 @@
         <section class="seccion-aislada seccion-alternada" id="toc">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/obsesion.html">
-                    <img src="imagenes/obsesion.png" alt="El miedo irracional que se complica por la manera de dar vueltas a todo" class="imagen-adaptativa">
+                    <img src="imagenes/obsesion.webp" alt="El miedo irracional que se complica por la manera de dar vueltas a todo" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -467,7 +469,7 @@
         <section class="seccion-aislada" id="fugas">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/fugas.html">
-                    <img src="imagenes/fugas.png" alt="El estado de tensión no resuelto busca salidas inadecuadas" class="imagen-adaptativa">
+                    <img src="imagenes/fugas.webp" alt="El estado de tensión no resuelto busca salidas inadecuadas" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -481,7 +483,7 @@
         <section class="seccion-aislada seccion-alternada" id="auto">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/autoestima.html">
-                    <img src="imagenes/autoestima.png" alt="La autoimagen se fabrica en el espejo del aprecio ambiental y los juicios sobre nuestro valor" class="imagen-adaptativa">
+                    <img src="imagenes/autoestima.webp" alt="La autoimagen se fabrica en el espejo del aprecio ambiental y los juicios sobre nuestro valor" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -495,7 +497,7 @@
         <section class="seccion-aislada" id="rubor">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/candor.html">
-                    <img src="imagenes/rubor.png" alt="El rubor producido por ser descubierta nuestra inseguridad o impostura" class="imagen-adaptativa">
+                    <img src="imagenes/rubor.webp" alt="El rubor producido por ser descubierta nuestra inseguridad o impostura "loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -509,7 +511,7 @@
         <section class="seccion-aislada seccion-alternada" id="irracional">
             <div class="contenedor-imagen">
                     <a href="https://aspsillull.github.io/irracional.html">
-                        <img src="imagenes/temor_irracional.png" alt="Temor irracional por cosas que serían fácilmente controlables" class="imagen-adaptativa">
+                        <img src="imagenes/temor_irracional.webp" alt="Temor irracional por cosas que serían fácilmente controlables" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -523,7 +525,7 @@
         <section class="seccion-aislada" id="fobia_social">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/fobia_social.html">
-                    <img src="imagenes/fobia_social.png" alt="No ver, huir del trato social, evitar al otro que necesitamos" class="imagen-adaptativa">
+                    <img src="imagenes/fobia_social.webp" alt="No ver, huir del trato social, evitar a quienes necesitamos" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -537,8 +539,7 @@
         <section class="seccion-aislada seccion-alternada" id="panico">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/panico.html">
-                    <img src="imagenes/panico.png" alt="El pánico nos postra y obnubila" class="imagen-adaptativa">
-                        </a>
+                    <img src="imagenes/panico.webp" alt="El pánico nos postra y obnubila" loading="lazy" class="imagen-adaptativa"></a>
             </div>
             <div class="contenedor-texto">
                 <h2>ATAQUES DE PÁNICO Y AGORAFOBIA</h2>
@@ -554,7 +555,7 @@
         <section class="seccion-aislada" id="sudor">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/sudando.html">
-                    <img src="imagenes/hiperhidrosis.png" alt="El sudor excesivo se convierte en una pesadilla" class="imagen-adaptativa">
+                    <img src="imagenes/hiperhidrosis.webp" alt="El sudor excesivo se convierte en una pesadilla" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -570,7 +571,7 @@
         <section class="seccion-aislada seccion-alternada" id="temblor">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/temblor.html">
-                    <img src="imagenes/mano.png" alt="Cuando alguien te coge la mano que está temblando siente tu angustia" class="imagen-adaptativa">
+                    <img src="imagenes/mano.webp" alt="Cuando alguien te coge la mano que está temblando siente tu angustia" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -584,7 +585,7 @@
         <section class="seccion-aislada" id="mirada">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/mirada.html">
-                    <img src="imagenes/mirada.png" alt="La mirada expresa lo que sentimos, pero también el mirar según qué es una tecnología para crear efectos especiales" class="imagen-adaptativa">
+                    <img src="imagenes/mirada.webp" alt="La mirada expresa lo que sentimos, pero también el mirar según qué es una tecnología para crear efectos especiales" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -603,7 +604,7 @@
         <section class="seccion-aislada seccion-alternada" id="depresion">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/depresion.html">
-                    <img src="imagenes/tristeza.png" alt="El duelo es un reconocimiento de la imposibilidad de lo que deseamos" class="imagen-adaptativa">
+                    <img src="imagenes/tristeza.webp" alt="El duelo es un reconocimiento de la imposibilidad de lo que deseamos" loading="lazy" class="imagen-adaptativa">
                         </a>
             </div>
             <div class="contenedor-texto">
@@ -619,7 +620,7 @@
         <section class="seccion-aislada" id="irritacion">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/agresividad.html">
-                    <img src="imagenes/irritacion.png" alt="Agresividad e irritación" class="imagen-adaptativa">
+                    <img src="imagenes/irritacion.webp" loading="lazy" alt="Agresividad e irritación" class="imagen-adaptativa">
                 </a>
             </div>
             <div class="contenedor-texto">
@@ -636,7 +637,7 @@
         <section class="seccion-aislada seccion-alternada" id="alextimia">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/alextimia.html">
-                    <img src="imagenes/oreja.png" alt="Volverse hacia el cuerpo con el dolor producido por el alma" class="imagen-adaptativa">
+                    <img src="imagenes/oreja.webp" alt="Volverse hacia el cuerpo con el dolor producido por el alma" loading="lazy" class="imagen-adaptativa">
                 </a>
             </div>
             <div class="contenedor-texto">
@@ -653,7 +654,7 @@
         <section class="seccion-aislada" id="rasgos">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/personalidad.html">
-                    <img src="imagenes/personalidad.png" alt="Rasgos de personalidad estresantes frente a una modalidad armónica" class="imagen-adaptativa">
+                    <img src="imagenes/personalidad.webp" alt="Rasgos de personalidad estresantes frente a una modalidad armónica" loading="lazy" class="imagen-adaptativa">
                 </a>
             </div>
             <div class="contenedor-texto">
@@ -669,7 +670,7 @@
         <section class="seccion-aislada seccion-alternada" id="sensi">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/hipersensibilidad.html">
-                    <img src="imagenes/sensible.png" alt="sensibilidad a flor de piel" class="imagen-adaptativa">
+                    <img src="imagenes/sensible.webp" alt="sensibilidad a flor de piel "loading="lazy" class="imagen-adaptativa">
                 </a>
             </div>
             <div class="contenedor-texto">
@@ -685,7 +686,7 @@
         <section class="seccion-aislada" id="amor">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/amor.html">
-                    <img src="imagenes/pareja.png" alt="Los que se aman se desgarran por la pérdida de lo más valioso" class="imagen-adaptativa">
+                    <img src="imagenes/pareja.webp" alt="Los que se aman se desgarran por la pérdida de lo más valioso" loading="lazy" class="imagen-adaptativa">
                 </a>
             </div>
             <div class="contenedor-texto">
@@ -702,7 +703,7 @@
         <section class="seccion-aislada seccion-alternada" id="soledad">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/soledad.html">
-                    <img src="imagenes/soledad.png" alt="La soledad - En soledad nos aislamos y vivimos apartados, ocultos" class="imagen-adaptativa">
+                    <img src="imagenes/soledad.webp" alt="La soledad: nos aislamos y vivimos apartados, ocultos" loading="lazy" class="imagen-adaptativa">
                 </a>
             </div>
             <div class="contenedor-texto">
@@ -721,7 +722,7 @@
         <section class="seccion-aislada" id="guia">
             <div class="contenedor-imagen">
                 <a href="https://aspsillull.github.io/guia_angustiados.pdf">
-                    <img src="imagenes/angustiados.png" alt="Las distintas caras del sufrimiento" class="imagen-adaptativa">
+                    <img src="imagenes/angustiados.png" alt="Las distintas caras del sufrimiento" loading="lazy" class="imagen-adaptativa">
                 </a>
             </div>
             <div class="contenedor-texto">
@@ -740,7 +741,7 @@
         <!-- Cuentos terapéuticos -->
         <section class="seccion-aislada seccion-alternada" id="cuentos">
             <div class="contenedor-imagen">
-                <img src="imagenes/grupo_cuento.png" alt="A través del espejo del cuento se toma conciencia de las propias dificultades" class="imagen-adaptativa">
+                <img src="imagenes/grupo_cuento.png" alt="A través del espejo del cuento se toma conciencia de las propias dificultades" loading="lazy" class="imagen-adaptativa">
             </div>
             <div class="contenedor-texto">
                 <h2>CUENTOS TERAPÉUTICOS</h2>
@@ -752,7 +753,7 @@
         <!-- Narratoterapia -->
         <section class="seccion-aislada" id="narrar">
             <div class="contenedor-imagen">
-                <img src="imagenes/narratoterapia.png" alt="En la narración de lo similar nos conocemos a nosotros mismos" class="imagen-adaptativa">
+                <img src="imagenes/narratoterapia.png" alt="En la narración de lo similar nos conocemos a nosotros mismos" loading="lazy" class="imagen-adaptativa">
             </div>
             <div class="contenedor-texto">
                 <h2>NARRATOTERAPIA</h2>
@@ -764,7 +765,7 @@
         <!-- Principios de psicoterapia cognitiva pdf -->
         <section class="seccion-aislada seccion-alternada" id="principios">
             <div class="contenedor-imagen">
-                <img src="imagenes/cognitiva.png" alt="La conciencia como rectora de la organización de la acción" class="imagen-adaptativa">
+                <img src="imagenes/cognitiva.png" alt="La conciencia como rectora de la organización de la acción" loading="lazy" class="imagen-adaptativa">
             </div>
             <div class="contenedor-texto">
                 <h2>PRINCIPIOS DE PSICOTERAPIA COGNITIVA</h2>
