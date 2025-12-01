@@ -74,6 +74,11 @@ h4 { margin-top: 1rem; margin-bottom: 0rem; }
         text-align: center;  /* Centra el texto dentro del footer */
         padding: 1rem 0;
     }
+.content blockquote {
+    text-align: justify;
+    hyphens: auto;
+}
+}
 p.sdendnote {
     font-size: 10pt;
     text-indent: -0.6cm;
@@ -87,9 +92,18 @@ a.sdendnoteanc { font-size: 57% }
 .sdendnotesym {margin-right: 0.6em }
 p {
     text-align: justify;
+    hyphens: auto;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 4px;
     margin-bottom: 4px;
     padding: 0;
+}
+footer {
+    text-align: center;
+    /* margin-top: 40px; */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
