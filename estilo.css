@@ -106,16 +106,20 @@ p {
     margin: 20px 0;          /* espacio arriba y abajo */
 }
 .sube_comienzo button {
-    padding: 10px 10px;
-    font-size: 14px;
+    /* display: inline-block; */
+    width: 50px;          /* mismo ancho */
+    height: 50px;         /* mismo alto */
+    border-radius: 50%;   /* lo hace circular */    padding: 10px 10px;
+    /* font-size: 14px; */
+    border: 1px solid #444;
     cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    background: #fafafa;
+    color: #222;
+    font-size: 0.95rem;
     transition: background 0.3s;
 }
 .sube_comienzo button:hover {
-    background-color: #0056b3;
+    background-color: #e9e9e9;
 }
 footer {
     text-align: center;
