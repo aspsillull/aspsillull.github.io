@@ -105,13 +105,13 @@ p {
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 40px;
-   height: 40px;
+   width: 20px;
+   height: 20px;
    border-radius: 50%;
    border: 2px solid #000; /* borde visible */
    background: transparent;
    color: #000;
-   font-size: 24px;
+   font-size: 14px;
    text-decoration: none;
    cursor: pointer;
    transition: background 0.2s, transform 0.2s;
@@ -130,7 +130,7 @@ p {
 
 /* 🔽 Botón inferior centrado */
 .btn-circle-left.bottom-center {
-  bottom: 15px;              /* distancia desde abajo */
+  bottom: 0px;              /* distancia desde abajo */
   left: 50%;                 /* movemos el centro del botón */
   transform: translateX(-50%); /* truco para centrar perfectamente */
 }
