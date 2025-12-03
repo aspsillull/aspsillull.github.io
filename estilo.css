@@ -99,6 +99,24 @@ p {
     margin-bottom: 4px;
     padding: 0;
 }
+.sube_comienzo {
+    display: flex;         /* para centrar con flexbox */
+    /* position: fixed; */
+    justify-content: center; /* centrado horizontal */
+    margin: 20px 0;          /* espacio arriba y abajo */
+}
+.sube_comienzo button {
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background 0.3s;
+}
+.sube_comienzo button:hover {
+    background-color: #0056b3;
+}
 footer {
     text-align: center;
     /* margin-top: 40px; */
@@ -106,4 +124,11 @@ footer {
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+@media print {
+    .sube-comienzo,       /* botón subir */
+    .volver-home,
+    footer { /* botón volver */
+    display: none; /* ocultarlos al imprimir */
+    }
 }
