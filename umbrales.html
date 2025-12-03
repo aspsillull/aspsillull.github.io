@@ -58,9 +58,11 @@
 </head>
 
 <body>
-<a href="llull.html" class="volver-home">← Volver</a>
+
+<!-- <a href="index.html" class="btn-circle-left">←</a>-->
+<a href="index.html" class="btn-circle-left top-left">←</a>
 <div class="content">
-<h1>Los umbrales de la ansiedad</h1>
+<h1 id="inicio">Los umbrales de la ansiedad</h1>
 <p>La ansiedad es una emoción
 	aparentemente diversa en cuanto al modo de manifestarse, las causas
 	que la generan y su mantenimiento y/o incremento temporal. Por esta
@@ -1442,29 +1444,13 @@
 </div>
 
 </div> <!-- div de content -->
-<!-- BOTÓN SUBIR ARRIBA -->
-<div class="sube_comienzo">
-    <button id="btnSube">↑</button>
-</div>
-
-
-
 
 <footer>
    <hr>
 <a href="https://aspsillull.github.io/llull.html">Volver a Materiales de autoayuda</a><br>
 Extraído de <a href="https://aspsillull.github.io/guia_angustiados.pdf"><em>Guía para angustiados</em></a> © Jose Luis Catalán Reg. nº 00765-01883010<br>
-<a href="mailto:Jose Luis Catalan <jcatalan@cop.es>">Contactar</a>
+<a href="mailto:Jose Luis Catalan <jcatalan@cop.es>">Contactar</a><br><br><br>
 </footer>
-<script>
-const scrollBtn = document.getElementById("btnSube");
-
-scrollBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,       // va al inicio de la página
-        behavior: "smooth" // scroll suave
-    });
-});
-</script>
+<a href="#inicio" class="btn-circle-left bottom-center">↑</a>
 </body>
 </html>
