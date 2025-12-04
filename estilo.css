@@ -141,10 +141,10 @@ footer {
     padding: 20px;
     background: white;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 @media print {
-    .btn-circle-left,.btn-circle-left *,.content.footer,div.footer,
+    .btn-circle-left,.btn-circle-left *,
     footer,.page-footer {
         display: none !important;
     }
