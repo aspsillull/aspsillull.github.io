@@ -25,7 +25,8 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="manifest" href="site.webmanifest">
     <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="preload" href="estilo.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="estilo.css"></noscript>
     <!-- Google Analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8C6H4GQ6V">
     </script>
@@ -59,8 +60,11 @@
 </head>
 
 <body>
+<!-- boton a index.html -->
+<a href="index.html" class="btn-circle-left top-left"><b>&#8592;</b></a>
 <div class="content">
-<h1>FOBIA SOCIAL</h1>
+    <br>
+<h1 id="inicio">Fobia social</h1>
 <p>Todos tenemos algún
 	miedo, a las serpientes venenosas, los perros rabiosos, las
 	infecciones, los accidentes, aunque estos miedos se traducen en
@@ -751,14 +755,14 @@
         informarse, resumir, opinar críticamente e implicarse
         emocionalmente en ello.</p>
     </div>
-</div>
+</div> <!-- div de content -->
 
 <footer>
    <hr>
 <a href="https://aspsillull.github.io/llull.html">Volver a Materiales de autoayuda</a><br>
-Extraído de <a href="https://aspsillull.github.io/guia_angustiados.pdf"><em>Guía para angustiados</em></a> © Jose Luis Catalán Reg. nº 00765-01883010<br>
-<a href="mailto:Jose Luis Catalan <jcatalan@cop.es>">Contactar</a>
+Extraído de <a href="https://aspsillull.github.io/guia_angustiados.pdf"><em>Guía para angustiados</em></a> © Jose Luis Catalán<br>Reg. nº 00765-01883010<br>
+<a href="mailto:jcatalan@cop.es">Contactar</a><br><br>
 </footer>
-
+<a href="#inicio" class="btn-circle-left bottom-center">&#8593;</a>
 </body>
 </html>

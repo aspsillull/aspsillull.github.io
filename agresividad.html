@@ -24,7 +24,8 @@
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="manifest" href="/site.webmanifest">
         <!-- Hojas de estilo -->
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="preload" href="estilo.css" as="style" onload="this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="estilo.css"></noscript>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8C6H4GQ6V"></script>
         <script>
               window.dataLayer = window.dataLayer || [];
@@ -41,7 +42,7 @@
                 "@type": "MedicalCondition",
                 "name": "Irritación",
                 "description": "Analisis de las causas de la irritación y agresividad por ansiedad.",
-                "url": "https://aspsillull.github.io/fobia_social.html"
+                "url": "https://aspsillull.github.io/agresividad.html"
               },
               "about": {
                 "@type": "MedicalOrganization",
@@ -55,8 +56,11 @@
         </script>
 </head>
 <body>
+<!-- boton a index.html -->
+<a href="index.html" class="btn-circle-left top-left"><b>&#8592;</b></a>
 <div class="content">
-    <h1 text-align="center">AGRESIVIDAD E IRRITACIÓN</h1>
+<br>
+    <h1 id="inicio">Irritación y agresividad</h1>
 <p>En la conducta agresiva hay una intención de causar daño a un ser
 	vivo o a un objeto. El tipo de daño oscila entre uno parcial
 	-arrancar furiosos la hoja de una planta o hablar de forma
@@ -1158,13 +1162,16 @@
 		Ph. El efecto Lucifer: El por qué de la maldad, Ed. Paidós 2007,
 		pág. 15.</p>
 </div>
-</div>
+
+</div> <!-- div de content -->
+
 <footer>
    <hr>
 <a href="https://aspsillull.github.io/llull.html">Volver a Materiales de autoayuda</a><br>
-Extraído de <a href="https://aspsillull.github.io/guia_angustiados.pdf"><em>Guía para angustiados</em></a> © Jose Luis Catalán Reg. nº 00765-01883010<br>
-<a href="mailto:Jose Luis Catalan <jcatalan@cop.es>">Contactar</a>
+Extraído de <a href="https://aspsillull.github.io/guia_angustiados.pdf"><em>Guía para angustiados</em></a> © Jose Luis Catalán<br>Reg. nº 00765-01883010<br>
+<a href="mailto:jcatalan@cop.es">Contactar</a><br><br>
 </footer>
+<a href="#inicio" class="btn-circle-left bottom-center">&#8593;</a>
 
 </body>
 </html>
