@@ -1,139 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
-    <loc>https://aspsillull.github.io/</loc>
-    <lastmod>2025-11-28T01:34:00+01:00</lastmod>
-    <priority>1.00</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/llull.html</loc>
+       <lastmod>2024-08-24T22:04:45+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/llull.html</loc>
-    <lastmod>2025-11-28T01:34:00+01:00</lastmod>
-    <priority>0.95</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/umbrales.html</loc>
+       <lastmod>2024-08-19T17:59:10+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/umbrales.html</loc>
-    <lastmod>2025-12-2T02:15:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/causas.html</loc>
+       <lastmod>2024-08-19T17:43:47+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/causas.html</loc>
-    <lastmod>2025-11-21T01:36:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/pasos.html</loc>
+       <lastmod>2024-08-19T18:37:49+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/pasos.html</loc>
-    <lastmod>2025-11-21T01:39:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/obsesion.html</loc>
+       <lastmod>2024-08-19T17:46:48+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/obsesion.html</loc>
-    <lastmod>2025-11-29T01:40:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/fugas.html</loc>
+       <lastmod>2024-08-19T18:38:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/fugas.html</loc>
-    <lastmod>2025-11-26T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/autoestima.html</loc>
+       <lastmod>2024-08-19T18:51:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/autoestima.html</loc>
-    <lastmod>2025-11-29T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/candor.html</loc>
+       <lastmod>2024-08-19T18:47:20+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/candor.html</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/irracional.html</loc>
+       <lastmod>2024-08-19T17:35:20+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/irracional.html</loc>
-    <lastmod>2025-11-29T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/fobia_social.html</loc>
+       <lastmod>2024-08-19T18:34:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/fobia_social.html</loc>
-    <lastmod>2025-11-28T02:24:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/panico.html</loc>
+       <lastmod>2024-08-19T17:32:34+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/panico.html</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/sudando.html</loc>
+       <lastmod>2024-08-19T17:31:25+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/sudando.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/temblor.html</loc>
+       <lastmod>2024-08-19T17:49:33+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/temblor.html</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/mirada.html</loc>
+       <lastmod>2024-08-19T23:54:34+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/mirada.html</loc>
-    <lastmod>2025-11-29T02:15:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/soledad.html</loc>
+       <lastmod>2024-08-19T18:33:11+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/soledad.html</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/agresividad.html</loc>
+       <lastmod>2024-08-19T17:48:40+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/agresividad.html</loc>
-    <lastmod>2025-11-24T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/alextimia.html</loc>
+       <lastmod>2024-08-19T18:46:38+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/alextimia.html</loc>
-    <lastmod>2025-11-27T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/personalidad.html</loc>
+       <lastmod>2024-08-19T17:29:11+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/personalidad.html</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/depresion.html</loc>
+       <lastmod>2024-08-19T17:26:49+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/depresion.html</loc>
-    <lastmod>2025-11-29T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/amor.html</loc>
+       <lastmod>2024-08-19T18:37:06+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/amor.html</loc>
-    <lastmod>2025-11-29T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/hipersensibilidad.html</loc>
+       <lastmod>2024-08-19T18:36:19+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/hipersensibilidad.html</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/guia_angustiados.pdf</loc>
+       <lastmod>2024-08-22T21:43:06+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/enlaces.html</loc>
-    <lastmod>2025-11-24T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <!-- PDFs -->
-  <url>
-    <loc>https://aspsillull.github.io/guia_angustiados.pdf</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/cuentos_terapeuticos.pdf</loc>
+       <lastmod>2024-07-31T20:18:48+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/cuentos_terapeuticos.pdf</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/narratoterapia.pdf</loc>
+       <lastmod>2024-07-31T20:18:51+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/narratoterapia.pdf</loc>
-    <lastmod>2025-11-21T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/principios_psicoterapia_cognitiva.pdf</loc>
+       <lastmod>2024-08-24T21:54:52+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
-    <loc>https://aspsillull.github.io/principios_psicoterapia_cognitiva.pdf</loc>
-    <lastmod>2025-11-23T01:34:00+01:00</lastmod>
-    <priority>0.80</priority>
+       <loc>https://www.cop.es/colegiados/A-00512/Guia_angustiados.pdf</loc>
+       <lastmod>2024-08-22T21:43:06+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
   </url>
 </urlset>
