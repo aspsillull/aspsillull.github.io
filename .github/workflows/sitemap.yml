@@ -1,6 +1,5 @@
 name: Generate Sitemap
 
-# Se ejecuta cada vez que hagas push a la rama main
 on:
   push:
     branches:
@@ -11,29 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Clona el repositorio
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Configura Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      # 3. Instala sitemap-generator-cli globalmente
-      - name: Install sitemap-generator-cli
-        run: npm install -g sitemap-generator-cli
+      - name: Install dependencies
+        run: npm install sitemap-generator-cli
 
-      # 4. Genera sitemap.xml a partir del sitio público
       - name: Generate sitemap
         run: |
-          sitemap-generator-cli https://aspsillull.github.io \
+          npx sitemap-generator-cli https://aspsillull.github.io \
             --output ./sitemap.xml \
             --changefreq weekly \
             --max-entries-per-file 5000
 
-      # 5. Commit y push del sitemap solo si hay cambios
       - name: Commit and push sitemap
         run: |
           git config --local user.name "github-actions[bot]"
