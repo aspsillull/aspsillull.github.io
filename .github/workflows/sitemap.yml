@@ -36,6 +36,7 @@ jobs:
 
       - name: Generate sitemap
         run: |
+          set -e
           npx sitemap-generator-cli https://aspsillull.github.io \
             --output ./sitemap.xml \
             --changefreq weekly \
