@@ -98,13 +98,15 @@ p {
     margin-bottom: 4px;
     padding: 0;
 }
-nota-pie {
+.nota-pie {
     text-align: justify;
     hyphens: auto;
     margin-right: 3%;
     margin-left: 3%;
-    font-size: 75%;
+    font-size: 85%;
+    list-style: none;
 }
+
 .btn-circle-left {
    position: fixed;
    display: flex;
