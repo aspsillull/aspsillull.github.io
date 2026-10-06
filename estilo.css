@@ -46,6 +46,9 @@ h2 { margin-top: 1.5rem; margin-bottom: 0rem; }
 h3 { margin-top: 1.25rem; margin-bottom: 0rem; }
 h4 { margin-top: 1rem; margin-bottom: 0rem; }
 
+ul.flecha {
+    list-style-type: "=> ";   /* o "→ " */
+}
 .content {
             /* display: flex;
             flex-direction:column;
